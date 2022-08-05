@@ -13,9 +13,10 @@ const validateInput = ({ target }) => {
 const handleSubmit = (event) => {
   event.preventDefault();
 
+  localStorage.setItem("theme", 1);
   localStorage.setItem("player", input.value);
   window.location = "assets/pages/game.html";
 };
-localStorage.setItem("theme", 1);
+
 input.addEventListener("input", validateInput);
 form.addEventListener("submit", handleSubmit);
