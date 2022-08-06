@@ -1,0 +1,38 @@
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  border: solid #aaa;
+}
+
+.agradecimento {
+  border: 2px solid #333;
+  border-radius: 8px;
+  color: #333;
+  font-size: 0.8em;
+  margin-bottom: 15px;
+  max-width: 100vh;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+}
+
+.dev {
+  background-color: #aaa;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.playerInfo {
+  color: #333;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.text {
+  padding: 5px;
+}
