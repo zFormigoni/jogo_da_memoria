@@ -36,7 +36,7 @@ const checkEndGame = () => {
   const disableCards = document.querySelectorAll(".disable_card");
   if (disableCards.length === 20) {
     clearInterval(this.loop);
-    localStorage.setItem("temp", timer.innerHTML);
+    localStorage.setItem("temp", +timer.innerHTML);
     window.location = "../pages/agradecimento.html";
     //alert(`parabéns ${spanPlayer.innerHTML}, seu tempo foi: ${timer.innerHTML} ` );
   }
